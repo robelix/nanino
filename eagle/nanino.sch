@@ -12835,7 +12835,7 @@ grid 2.54 mm, diameter 5 mm height 12mm liegend</description>
 <wire x1="134.62" y1="78.74" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND1" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.1524" layer="91"/>
