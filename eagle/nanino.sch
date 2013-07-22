@@ -451,8 +451,8 @@ straight</description>
 <deviceset name="PINS_ARDUINO_PWR" prefix="X">
 <gates>
 <gate name="RESET" symbol="MV" x="-10.16" y="43.18" addlevel="always" swaplevel="1"/>
-<gate name="5V" symbol="M" x="-10.16" y="38.1" addlevel="always" swaplevel="1"/>
-<gate name="3V" symbol="M" x="-10.16" y="40.64" addlevel="always" swaplevel="1"/>
+<gate name="5V" symbol="M" x="-10.16" y="40.64" addlevel="always" swaplevel="1"/>
+<gate name="3V" symbol="M" x="-10.16" y="38.1" addlevel="always" swaplevel="1"/>
 <gate name="GND1" symbol="M" x="-10.16" y="35.56" addlevel="always" swaplevel="1"/>
 <gate name="GND2" symbol="M" x="-10.16" y="33.02" addlevel="always" swaplevel="1"/>
 <gate name="VIN" symbol="M" x="-10.16" y="30.48" addlevel="always" swaplevel="1"/>
@@ -460,8 +460,8 @@ straight</description>
 <devices>
 <device name="1" package="6PIN">
 <connects>
-<connect gate="3V" pin="S" pad="2"/>
-<connect gate="5V" pin="S" pad="3"/>
+<connect gate="3V" pin="S" pad="3"/>
+<connect gate="5V" pin="S" pad="2"/>
 <connect gate="GND1" pin="S" pad="4"/>
 <connect gate="GND2" pin="S" pad="5"/>
 <connect gate="RESET" pin="S" pad="1"/>
